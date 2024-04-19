@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f2f3fb" />
+    <title>Eduardo Barretto</title>
+    <meta
+      name="description"
+      content="A one-page personal about me website built using HTML, CSS, and JavaScript. It is a simple and clean design, with a focus on showcasing your existing social media following."
+    />
+    <meta
+      name="keywords"
+      content="Personal portfolio, Personal portfolio website, rakeshid03, Creative portfolio, Professional portfolio, Rakesh Chowdhury's Personal portfolio, Developer portfolio, Personal portfolio ui design, Personal portfolio source code, Personal portfolio using html, css, javascript, clean and simple personal portfolio"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/style/style.css" rel="stylesheet" />
+    <!-- Unpkg for card scroll reveal effect -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <!----Picture and name---->
+        <div class="picture">
+          <img
+            src="https://drive.google.com/file/d/1kGZUlo0G6xpgX44nsVd0hmV5bP1bDOjb/view?usp=sharing"
+            alt="Foto de Eduardo Barretto"
+          />
+        </div>
+        <div class="name" translate="no">Eduardo Barretto</div>
+
+        <!----Few personal detail---->
+        <!--more details button-->
+        <div class="info-box">
+          About me
+          <div class="toggle" onclick="vibrate()">
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <!--details-->
+          <div>
+            <br />
+            <div class="details">
+              <ul>
+                <li class="about">
+                    Hello, I’m Eduardo Barretto, but most people call me 'Dudu'. I am a web developer, multimedia editor, and meme star. I was born and raised in Palmares , and am still living here. When I am not busy at work, you will find me in the gym, clicking amazing photos, playing mobile games, drawing my imagination on paper and watching movies and series. I believe the best way to learn anything is to have fun, which is why I try to infuse humor into everything I do. Be it websites, videos, memes or life, you can always look forward to a good day when you are with me.
+
+                  <br /><br />
+                  Please don't hesitate to connect with me on every major social
+                  media platform with my username @Barrettodudu.
+                </li>
+                <li>
+                  <b>Projects:</b>
+                  <div class="projects">
+                    <a
+                      href="https://github.com/Wosniak08/Desafio-DIO.ME-WEB.git"
+                      class="project"
+                    >
+                      <i class="fa-solid fa-file"></i>
+                      <ul>
+                        <li>Desafio-DIO</li>
+                        <li><small>Created 2024</small></li>
+                      </ul>
+                    </a>
+
+                    <a
+                      href="https://github.com/Wosniak08/Pratica-HTML-Ancoragem-.git"
+                      class="project"
+                    >
+                      <i class="fa-solid fa-file"></i>
+                      <ul>
+                        <li>Desafio Pratica-HTML-Ancoragem-</li>
+                        <li><small>Created 2024</small></li>
+                      </ul>
+                    </a>
+
+                    <a
+                      href="https://github.com/Wosniak08/Course-Dev-Web.git"
+                      class="project"
+                    >
+                      <i class="fa-solid fa-file"></i>
+                      <ul>
+                        <li>Course-Dev-Web</li>
+                        <li><small>2024</small></li>
+                      </ul>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!----All social media buttons---->
+        <div class="social-media">
+          <a href="mailto:Edubarreto_silva@hotmail.com">
+            <div><i class="fa-solid fa-envelope"></i>Email</div>
+          </a>
+          <a href="https://www.facebook.com/eduardo.barreto.52438/"
+            ><div><i class="fa-brands fa-facebook-f"></i>Facebook</div>
+          </a>
+          <a href="https://www.instagram.com/barrettodudu/"
+            ><div><i class="fa-brands fa-instagram"></i>Instagram</div>
+          </a>
+          <a href="https://twitter.com/BarrettoDudu"
+            ><div><i class="fa-brands fa-x-twitter"></i>Twitter</div>
+          </a>
+          <a href="https://github.com/Wosniak08">
+            <div><i class="fa-brands fa-github"></i>Github</div>
+          </a>
+          <a href="https://www.youtube.com/channel/UCcIpN7k1mA5iXAPVryvnRVA"
+            ><div><i class="fa-brands fa-youtube"></i>YouTube</div>
+          </a>
+          <a href="https://www.linkedin.com/in/eduardo-barretto-4aaa4a20a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            ><div><i class="fa-brands fa-linkedin-in"></i>LinkedIn</div>
+          </a>
+          <a href=""
+            ><div><i class="fa-brands fa-codepen"></i>Codepen</div>
+          </a>
+          <a href="">
+            <div><i class="fa-brands fa-deviantart"></i>Deviantart</div>
+          </a>
+          <a href="">
+            <div><i class="fa-brands fa-pinterest"></i>Pinterest</div>
+          </a>
+          <a href="">
+            <div><i class="fa-brands fa-flickr"></i>Flickr</div>
+          </a>
+          <a href="">
+            <div><i class="fa-brands fa-stack-overflow"></i>Stackoverflow</div>
+          </a>
+          <a href="">
+            <div><i class="fa-brands fa-hashnode"></i>Hashnode</div>
+          </a>
+          <a href="">
+            <div><i class="fa-brands fa-quora"></i>Quora</div>
+          </a>
+          <a href="">
+            <div><i class="fa-brands fa-medium"></i>Medium</div>
+          </a>
+          <a href="">
+            <div><i class=""></i>Dribbble</div>
+          </a>
+          <a href="">
+            <div><i class="fa-brands fa-reddit"></i>Reddit</div>
+          </a>
+          <a href="">
+            <div><i class="fa-brands fa-tumblr"></i>Tumblr</div>
+          </a>
+          <a href="">
+            <div><i class="fa-brands fa-goodreads"></i>Goodreads</div>
+          </a>
+          <a href="https://soundcloud.com/eduardo-barretto-214203005?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+            <div><i class="fa-brands fa-soundcloud"></i>Soundcloud</div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
